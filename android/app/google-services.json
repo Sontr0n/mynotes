@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "25715440591",
+    "project_id": "mynotesflutterproj",
+    "storage_bucket": "mynotesflutterproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25715440591:android:aabfd8a028feb506ce70ba",
+        "android_client_info": {
+          "package_name": "com.RamenCafeShenanigans.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25715440591-v9sa2khjan5iaej802j75k1cq8q8240h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeeB53oZTFBK5bNNLtpCCKgm1em5OMuvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25715440591-v9sa2khjan5iaej802j75k1cq8q8240h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
