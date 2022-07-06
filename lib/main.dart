@@ -19,6 +19,7 @@ void main() {
     routes: {
       '/login/': (context) => const LoginView(),
       '/register/': (context) => const RegisterView(),
+      '/notes/': (context) => const NotesView(),
     },
   ),
   );
@@ -117,10 +118,10 @@ Future<bool> showLogOutDialog(BuildContext context) {
       actions: [
         TextButton(onPressed: () {
           Navigator.of(context).pop(false);
-        }, child: Text('Cancel'),),
+        }, child: const Text('Cancel'),),
         TextButton(onPressed: () {
           Navigator.of(context).pop(true);
-        }, child: Text('Log Out'),),
+        }, child: const Text('Log Out'),),
       ],
     );
   },
